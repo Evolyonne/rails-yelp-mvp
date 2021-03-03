@@ -13,3 +13,37 @@
  *= require_tree .
  *= require_self
  */
+.nav{
+	display: flex;
+	justify-content: space-around;
+	background-color: #C8AFB6;
+	padding: 25px;
+	margin: 0 auto;
+}
+
+.nav > a {
+	color: white;
+}
+
+a {
+	color: #7F3A4E;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #C8AFB6;
+}
+
+.nav > a:hover {
+	color: #7F3A4E;
+} 
+
+.title {
+	color: red;
+}
+
+.card {
+	background-color: #F3DEFF;
+	width: 100px;
+	height: 100px;
+}
